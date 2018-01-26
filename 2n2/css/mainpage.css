@@ -1,0 +1,37 @@
+
+#main {
+	width: 50%;
+	float: left;
+	margin-top: 20 px;
+	margin-left: 3%;
+}
+
+
+aside {
+	float: left;
+	width: 40%;
+	margin-left: 2%;
+	margin-top: 20 px;
+}
+
+#heading {
+	font-weight: lighter;
+	font-size: 1.4em;
+	font-family: 'Press Start 2P', cursive;
+	border-bottom: 2px solid #db6e6e;
+	float: left;
+	color: #4f4f4f;
+	padding: 0px 5px;
+}
+
+#article {
+	width: 40%;
+	float: left;
+	margin-right: 10%;
+	margin-bottom: 20 px;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+	box-sizing: border-box;
+	max-width: 350 px;
+	border-radius: 5 px:
+}

@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Slab');
+
+/*
+font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto Slab', serif;
+*/
+
+#main {
+    float: left;
+    margin-top: 10px;
+	font-size: 1em;
+}
+
+aside {
+    float: left;
+    margin-top: 20px;
+}
+
+#videos {
+    float: left;
+    width: 90%;
+}
+
+.video {
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    color: #646464;
+}
+
+.video>img {
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    width: 35%;
+    float: left;
+    margin-right: 10px;
+}
+
+.video>span {
+    float: right;
+    font-weight: bold;
+    color: purple;
+}
+
+.videos>a>.btn {
+    float: left;
+    margin-left: 30%;
+}
+
+#one_video {
+    float: left;
+    margin-top: 10px;
+}
+
+#one_video>img {
+    width: 80%;
+    float: left;
+    
+}
+
+.heading {
+    font-weight: lighter;
+    font-size: 1.4em;
+    font-family: 'Press Start 2P', cursive;
+    border-bottom: 2px solid purple;
+    float: left;
+    color: #4f4f4f;
+    padding: 0px 5px;
+}
+
+.heading {
+    color: purple;
+}
+
+
+
+#news {
+    float: left;
+	
+}
+
+.article {
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid #e3e3e3;
+    background-color: white;
+    box-sizing: border-box;
+    max-width: 350px;
+    border-radius: 5px;
+    font-family: 'Spectral SC', serif;
+    font-size: 1.3em;
+}
+
+.article>img {
+ border-radius: 5px 5px 0 0;
+    height: 100px;
+}
+
+.article>span {
+     font-family: 'Spectral SC', serif;
+    font-size: 1.3em;
+    width: 80%;
+    margin: 7px 10%;
+    float: left;
+    text-align: center;
+    color: #333;
+}
+
+#news>a>.btn {
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 30%;
+}
+
+@media (min-width: 1051px) {
+   #main {
+    width: 60%;
+    margin-left: 3%;
+}
+
+aside {
+    width: 30%;
+    margin-left: 2%;
+} 
+    #news {
+    margin-left: 10%;
+    width: 90%;
+}
+}
+
+
+@media (max-width: 1050px) and (min-width: 911px) {
+   #main {
+    width: 65%;
+    margin-left: 2%;
+}
+
+aside {
+    width: 32%;
+} 
+    #news {
+    margin-left: 4%;
+    width: 96%;
+}
+}
+
+@media (max-width: 910px) and (min-width: 500px) {
+   #main {
+    width: 90%;
+    margin-left: 5%;
+}
+
+aside {
+    width: 50%;
+    margin-left: 25%;
+} 
+    #news {
+    margin-left: 4%;
+    width: 96%;
+}
+}
+
+@media (max-width: 499px) {
+   #main {
+    width: 90%;
+    margin-left: 5%;
+}
+
+aside {
+    width: 80%;
+    margin-left: 10%;
+} 
+    #news {
+    margin-left: 4%;
+    width: 96%;
+}
+}
+
+@media (min-width: 1220px) {
+    .article {
+        width: 40%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 1119px) and (min-width: 911px) {
+    .article {
+        width: 46%;
+        margin-right: 4%;
+    }
+}
+
+@media (max-width: 910px) and (min-width: 650px) {
+    .article {
+        width: 45%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 649px) and (min-width:500px) {
+    .article {
+        width: 70%;
+        margin-right: 15%;
+    }
+}
+
+@media (max-width: 499px) {
+    .article {
+        width: 90%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 600px) {
+    #videos>a>.btn {
+      margin-left: 5%!important;
+    }
+}
+
+@media (max-width: 440px) {
+    #main>a>.btn {
+      margin-left: 5%!important;
+    }
+}
+
+#subscribe {
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 911px) {
+    #subscribe {
+        width: 70%;
+    }
+}
+
+@media (max-width: 910px) {
+    #subscribe {
+        width: 100%;
+    }
+}
+
+#subscribe>span {
+     font-family: 'Spectral SC', serif;
+    font-size: 2em;
+    color: darkslategrey;
+}
+
+#vk_groups {
+  margin: auto;
+}
